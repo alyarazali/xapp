@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"> 
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/carousel.css">
+    
+
+    <title>X App</title>
+
+    
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">Xa</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarCollapse">      
+                    <ul class="navbar-nav ml-auto mr-5" id="nav">
+                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Screenshot</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+
+                    <span class="navbar-nav">     
+                        <button type="submit" class="btn" id="loginButton">Login</button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <div id="loginModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-md" role="content">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100">Login </h4>
+                        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" id="emailid" name="emailid" placeholder="Username" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input type="password" class="form-control" id="emailid" name="emailid" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="form-group text-center">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                </div>
+                                <div class="signup">
+                                    <p>Forgot <a href="#" ><span>Username / Password?</span></a></p>
+                                    <p>Create an account? <a href="#" ><span>Sign up</span></a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section class="s1" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-sm-auto" id="welcomet">
+                    <h1>Unknown App</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+            <img src="img/bg-img/welcome-img.png" alt="">
+        </div>
+    </section>
+
+    <section class="s2 section_padding_100" id="about" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Why Is It Special</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="box text-center">
+                        <div class="icon">
+                            <i class="ti-mobile" aria-hidden="true"></i>
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Easy to use</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem dsccc</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="box text-center">
+                        <div class="icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h4>Simple</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem dsccc</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="box text-center">
+                        <div class="icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4>Development</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem dsccc</p>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <section class="s3 mt-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img class="imgs" src="img/bg-img/special.png" alt="">
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-5 ml-xl-auto">
+                    <div class="s3desc">
+                        <h2>Our Best Propositions for You!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                <a href="#">
+                                    <i class="fab fa-android"></i>
+                                    <p class="mb-0"><span>available on</span> Google Store</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                <a href="#">
+                                    <i class="fab fa-apple"></i>
+                                    <p class="mb-0"><span>available on</span> Apple Store</p>
+                                </a>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s4 section_padding_100" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Awesome Features</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="single-feature">
+                            <i class="fas fa-user"></i>
+                            <h5>Awesome Experience</h5>
+                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="single-feature">
+                            <i class="fas fa-star-of-life"></i>
+                            <h5>Fast and Simple</h5>
+                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="single-feature">
+                            <i class="fas fa-code"></i>
+                            <h5>Clean Code</h5>
+                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="single-feature">
+                            <i class="fas fa-palette"></i>
+                            <h5>Perfect Design</h5>
+                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="single-feature">
+                            <i class="fas fa-crown"></i>
+                            <h5>Best Industry Leader</h5>
+                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="single-feature">
+                            <i class="fas fa-headphones-alt"></i>
+                            <h5>24/7 Online Support</h5>
+                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="s5 clearfix">
+        <div class="container">
+            <div class="row countcard">
+                <div class="card csize">
+                    <div class="card-body">
+                            <div class="row">
+                            <div class="col-12 kk">
+                                <div class="counter-area">
+                                    <h3><span class="counter">90</span></h3>
+                                </div>
+                                <div class="cool-facts-content">
+                                    <i class="fas fa-angle-down"></i>
+                                    <p>APP <br> DOWNLOADS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card csize">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 kk">
+                                <div class="counter-area">
+                                    <h3><span class="counter">120</span></h3>
+                                </div>
+                                <div class="cool-facts-content">
+                                    <i class="fas fa-smile-beam"></i>
+                                    <p>Happy <br> Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card csize">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 kk">
+                                <div class="counter-area">
+                                    <h3><span class="counter">40</span></h3>
+                                </div>
+                                 <div class="cool-facts-content">
+                                    <i class="fas fa-user"></i>
+                                    <p>ACTIVE <br>ACCOUNTS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card csize">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 kk">
+                                <div class="counter-area">
+                                    <h3><span class="counter">10</span></h3>
+                                </div>
+                                 <div class="cool-facts-content">
+                                    <i class="fas fa-star"></i>
+                                    <p>TOTAL <br>APP RATES</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <!-- <section class="s6 section_padding_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>App Screenshots</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                        <img src="img/scr-img/app-5.jpg" class="img-fluid mx-auto d-block" alt="img1">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="img/scr-img/app-1.jpg" class="img-fluid mx-auto d-block" alt="img2">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="img/scr-img/app-2.jpg" class="img-fluid mx-auto d-block" alt="img3">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="img/scr-img/app-1.jpg" class="img-fluid mx-auto d-block" alt="img4">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="img/scr-img/app-3.jpg" class="img-fluid mx-auto d-block" alt="img5">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="img/scr-img/app-4.jpg" class="img-fluid mx-auto d-block" alt="img6">
+                    </div>
+                    
+                
+                </div>
+                <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="contact section_padding_100" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="section-heading">
+                        <h2>Get in touch with us!</h2>
+                        <div class="line-shape"></div>
+                    </div>
+
+                    <div class="footer-text">
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                    </div>
+                    <div class="address-text">
+                        <p><span>Address:</span> Mutiara Damansara, 47830 PJ Selangor</p>
+                    </div>
+                    <div class="phone-text">
+                        <p><span>Phone:</span> +60-16 33 167 20</p>
+                    </div>
+                    <div class="email-text">
+                        <p><span>Email:</span> infoxa@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <form class="contactform">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Your Email" required>
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <textarea class="form-control" placeholder="Your message*" rows="4" id="feedback" name="feedback" rows="12" required></textarea>
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary">Send Feedback</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <h2>Xa</h2>
+        </div>
+        <!-- social icon-->
+        <div class="footer-social-icon">
+            <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2020 Xa</p>
+        </div>
+    </footer>
+
+    
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- <script src="node_modules/jquery-waypoints/waypoints.min.js"></script> -->
+    <script src="js/counterup/jquery.counterup.min.js"></script>
+    <!-- <script src="node_modules/counterup/jquery.counterup.min.js"></script> -->
+    <script>src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" </script>
+    <!-- <script src="node_modules/popper.js/dist/umd/popper.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.1.18/jquery.backstretch.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
